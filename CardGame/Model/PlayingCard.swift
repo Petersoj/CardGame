@@ -26,6 +26,7 @@ class PlayingCard : Card {
         suit = ""
         color = UIColor()
         super.init()
+        rank = 0
     }
     
     func getRank() -> Int{
