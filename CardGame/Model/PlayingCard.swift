@@ -23,7 +23,6 @@ class PlayingCard : Card {
     private var color : UIColor
     
     override init(){
-        
         suit = ""
         color = UIColor()
         super.init()
