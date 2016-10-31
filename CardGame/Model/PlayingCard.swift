@@ -11,7 +11,7 @@ import UIKit
 
 class PlayingCard : Card {
     
-    private var rank : Int{
+    internal var rank : Int{
         get {
             return self.rank
         }
@@ -19,8 +19,8 @@ class PlayingCard : Card {
             self.rank = newRank
         }
     }
-    private var suit : String
-    private var color : UIColor
+    internal var suit : String
+    internal var color : UIColor
     
     override init(){
         suit = ""
