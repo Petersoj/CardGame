@@ -19,14 +19,35 @@ class PlayingCard : Card {
             self.rank = newRank
         }
     }
-    internal var suit : String
-    internal var color : UIColor
+    internal var suit : String{
+        get {
+            return self.suit
+        }
+        set (suit) {
+            self.suit = suit
+        }
+    }
+    internal var color : UIColor{
+        get {
+            return self.color
+        }
+        set (color) {
+            self.color = color
+        }
+    }
     
     override init(){
-        suit = ""
-        color = UIColor()
         super.init()
+        suit = ""
+        color = UIColor.redColor()
         rank = 0
+    }
+    
+    init(withRank: Int, ofSuit: String){
+        super.init()
+        color = UIColor.redColor()
+        suit = ofSuit
+        rank = withRank
     }
     
     func getRank() -> Int{
