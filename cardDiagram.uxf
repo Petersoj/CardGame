@@ -4,8 +4,74 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>40</x>
-      <y>10</y>
+      <x>30</x>
+      <y>200</y>
+      <w>260</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>CardGame.Model::Deck
+--
+
+--
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>510</x>
+      <y>30</y>
+      <w>290</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>CardGame.Model::Card
+--
+- backImage : UIImage
+- isFaceUp : Bool
+--
++ getBackImage(): UIImage
++ getFace() : Bool
++ init() : Initializer
++ toString : String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>420</x>
+      <y>340</y>
+      <w>330</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>CardGame.Model::PlayingCard
+--
+- rank : Int
+- suit : String
+- color : UIColor
+--
++ getRank() : Int
++ getSuit() : String
++ getColor() : UIColor
++ init() : Initializer
++ toString() : String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>630</x>
+      <y>210</y>
+      <w>30</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
       <w>260</w>
       <h>110</h>
     </coordinates>
@@ -24,41 +90,42 @@ bg=green
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>230</x>
-      <y>260</y>
-      <w>290</w>
-      <h>190</h>
+      <x>20</x>
+      <y>400</y>
+      <w>260</w>
+      <h>110</h>
     </coordinates>
-    <panel_attributes>CardGame.Model::Card
+    <panel_attributes>CardGame.Model::PlayingCardDeck
 --
-- backImage : UIImage
-- isFaceUp : Bool
+cards : [PlayingCard]
 --
-+ getBackImage(): UIImage
-+ getFace() : Bool
-+ init() : Initializer
-+ toString : String</panel_attributes>
++shuffleDeck(): Void
++orderDeck(): Void
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>UMLClass</id>
+    <id>Relation</id>
     <coordinates>
-      <x>670</x>
-      <y>280</y>
-      <w>330</w>
-      <h>180</h>
+      <x>140</x>
+      <y>300</y>
+      <w>30</w>
+      <h>120</h>
     </coordinates>
-    <panel_attributes>CardGame.Model::PlayingCard
---
-- rank : Int
-- suit : String
-- color : UIColor
---
-+ getRank() : Int
-+ getSuit() : String
-+ getColor() : UIColor
-+ init() : Initializer
-+ toString() : String</panel_attributes>
-    <additional_attributes/>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>270</x>
+      <y>450</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m1=1
+m2=52</panel_attributes>
+    <additional_attributes>10.0;10.0;150.0;10.0</additional_attributes>
   </element>
 </diagram>
