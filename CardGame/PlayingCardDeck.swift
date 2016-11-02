@@ -6,11 +6,10 @@
 //  Copyright © 2016 Peterson, Jacob. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
 class PlayingCardDeck: Deck{
     
-    internal lazy var cards = [PlayingCard]()
     
     override init(){
 

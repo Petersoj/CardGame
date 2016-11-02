@@ -6,8 +6,14 @@
 //  Copyright © 2016 Peterson, Jacob. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
 class Deck{
+    
+    internal lazy var cards = [PlayingCard]()
+
+    func cutDeck() -> Void{
+        
+    }
     
 }
