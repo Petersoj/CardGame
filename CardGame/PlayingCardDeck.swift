@@ -12,12 +12,14 @@ class PlayingCardDeck: Deck{
     
     
     override init(){
-
         super.init()
-    }
-    
-    func shuffleDeck() -> Void{
         
+        for suit in PlayingCard.validRanks(){
+            for var rank = 1; rank <= PlayingCard.maxRank(); rank += 1 {
+                let tempCard = PlayingCard(withRank: rank, ofSuit: suit)
+                cards.append(tempCard)
+            }
+        }
     }
     
     func orderDeck() -> Void{

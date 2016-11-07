@@ -10,7 +10,7 @@ import Foundation
 
 class Deck{
     
-    internal lazy var cards = [PlayingCard]()
+    internal lazy var cards = [Card]()
     
     func shuffleDeck() -> Void{
         
@@ -21,7 +21,11 @@ class Deck{
     }
     
     func drawCard() -> Card!{
-        return nil
+        if cards.count > 0{
+            return cards.removeAtIndex(0)
+        }else{
+            return nil
+        }
     }
     
     func drawRandomCard() -> Card!{

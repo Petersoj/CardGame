@@ -23,12 +23,9 @@
                                     <constraint firstAttribute="height" constant="287" id="A3N-vG-0Ow"/>
                                     <constraint firstAttribute="width" constant="214" id="yrB-vf-jce"/>
                                 </constraints>
-                                <state key="normal" title="words" backgroundImage="cardDone"/>
+                                <state key="normal" title="Words" backgroundImage="cardDone"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="93" y="156" width="214" height="287"/>
-                                </variation>
-                                <variation key="heightClass=compact-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="93" y="56" width="214" height="287"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="93" y="256" width="214" height="287"/>
