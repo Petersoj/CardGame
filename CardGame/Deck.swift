@@ -11,9 +11,21 @@ import Foundation
 class Deck{
     
     internal lazy var cards = [PlayingCard]()
+    
+    func shuffleDeck() -> Void{
+        
+    }
 
     func cutDeck() -> Void{
         
+    }
+    
+    func drawCard() -> Card!{
+        return nil
+    }
+    
+    func drawRandomCard() -> Card!{
+        return nil
     }
     
 }
