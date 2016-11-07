@@ -17,8 +17,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3jo-JP-qlP">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3jo-JP-qlP">
                                 <rect key="frame" x="193" y="156" width="214" height="287"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="287" id="A3N-vG-0Ow"/>
+                                    <constraint firstAttribute="width" constant="214" id="yrB-vf-jce"/>
+                                </constraints>
                                 <state key="normal" title="words" backgroundImage="cardDone"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="93" y="156" width="214" height="287"/>
@@ -29,10 +33,30 @@
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="93" y="256" width="214" height="287"/>
                                 </variation>
+                                <connections>
+                                    <action selector="cardClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="us9-uc-Ytt"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aW6-k0-JW5">
+                                <rect key="frame" x="193" y="108" width="214" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="aW6-k0-JW5" firstAttribute="leading" secondItem="3jo-JP-qlP" secondAttribute="leading" id="1M4-cH-OkI"/>
+                            <constraint firstItem="3jo-JP-qlP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="g9r-ak-XXf"/>
+                            <constraint firstItem="3jo-JP-qlP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pmq-fs-qfy"/>
+                            <constraint firstItem="3jo-JP-qlP" firstAttribute="top" secondItem="aW6-k0-JW5" secondAttribute="bottom" constant="27" id="qqg-J2-Tew"/>
+                            <constraint firstItem="aW6-k0-JW5" firstAttribute="width" secondItem="3jo-JP-qlP" secondAttribute="width" id="zLz-mI-fF2"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cardButton" destination="3jo-JP-qlP" id="mYP-CI-MCD"/>
+                        <outlet property="cardLabel" destination="aW6-k0-JW5" id="Gra-Ph-0O9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
