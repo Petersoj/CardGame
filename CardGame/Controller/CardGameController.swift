@@ -26,8 +26,8 @@ class CardGameController: UIViewController {
         
         let content = "You clicked \(clickCount) times!"
         
-        if let currentCard = cardDeck.drawCard() as? PlayingCard{
-            cardButton.setTitle("\(currentCard.rank) \(currentCard.suit)", forState: .Normal)
+        if let currentCard = cardDeck.drawRandomCard() as? PlayingCard{
+            cardButton.setTitle(currentCard.getCardData(), forState: .Normal)
         }else{
             cardButton.setTitle("deck over", forState: .Normal)
         }

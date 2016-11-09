@@ -14,7 +14,7 @@ class PlayingCardDeck: Deck{
     override init(){
         super.init()
         
-        for suit in PlayingCard.validRanks(){
+        for suit in PlayingCard.validSuits(){
             for var rank = 1; rank <= PlayingCard.maxRank(); rank += 1 {
                 let tempCard = PlayingCard(withRank: rank, ofSuit: suit)
                 cards.append(tempCard)
