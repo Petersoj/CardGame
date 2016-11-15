@@ -21,6 +21,10 @@ class CardGameController: UIViewController {
         print(tempCard.toString())
     }
     
+    override func viewWillTransitionToSize(size: CGSize, withTransitionCoordinator coordinator: UIViewControllerTransitionCoordinator) {
+        print("\(self.view.frame)")
+    }
+    
     @IBAction func cardClick(sender: UIButton) {
         self.clickCount += 1
         
