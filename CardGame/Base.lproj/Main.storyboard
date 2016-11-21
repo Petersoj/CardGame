@@ -111,7 +111,7 @@
                                 </constraints>
                                 <state key="normal" backgroundImage="cardDone"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yVg-xh-lMM">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yVg-xh-lMM">
                                 <rect key="frame" x="270" y="453" width="61" height="91"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="91" id="AWR-0n-WyK"/>
@@ -124,20 +124,18 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="yVg-xh-lMM" firstAttribute="top" secondItem="eoc-F6-MMl" secondAttribute="top" id="A8h-Uy-vwZ"/>
                             <constraint firstItem="6qd-0E-zDz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ERC-1i-vxy"/>
+                            <constraint firstItem="yVg-xh-lMM" firstAttribute="leading" secondItem="eoc-F6-MMl" secondAttribute="trailing" constant="8" id="Ep5-qC-3mg"/>
                             <constraint firstItem="lEl-IR-7mo" firstAttribute="leading" secondItem="WXf-XI-OGm" secondAttribute="leading" id="HPl-eu-m9R"/>
                             <constraint firstItem="1zR-iX-oQ5" firstAttribute="top" secondItem="4P8-Bp-gBr" secondAttribute="bottom" constant="8" id="Ike-B9-OlV"/>
                             <constraint firstItem="4P8-Bp-gBr" firstAttribute="trailing" secondItem="5OM-oc-nfh" secondAttribute="trailing" id="KYa-Aa-QnM"/>
                             <constraint firstItem="4P8-Bp-gBr" firstAttribute="leading" secondItem="WXf-XI-OGm" secondAttribute="leading" id="KoD-OV-vsh"/>
                             <constraint firstItem="XfL-j7-RM1" firstAttribute="leading" secondItem="5OM-oc-nfh" secondAttribute="leading" id="KwY-rU-MWa"/>
-                            <constraint firstItem="yVg-xh-lMM" firstAttribute="top" secondItem="eoc-F6-MMl" secondAttribute="top" id="Lw5-iy-IMt"/>
                             <constraint firstItem="lEl-IR-7mo" firstAttribute="top" secondItem="WXf-XI-OGm" secondAttribute="bottom" constant="8" id="Mfr-YN-qm3"/>
                             <constraint firstItem="1zR-iX-oQ5" firstAttribute="leading" secondItem="6qd-0E-zDz" secondAttribute="leading" id="QQE-zA-tlr"/>
                             <constraint firstItem="lEl-IR-7mo" firstAttribute="leading" secondItem="D3w-dR-sWf" secondAttribute="trailing" constant="8" id="S0e-kW-swI"/>
-                            <constraint firstItem="yVg-xh-lMM" firstAttribute="leading" secondItem="eoc-F6-MMl" secondAttribute="trailing" constant="8" id="V4T-M2-bcK"/>
                             <constraint firstItem="Gov-YE-nRO" firstAttribute="top" secondItem="lEl-IR-7mo" secondAttribute="bottom" constant="8" id="WVd-es-Qc8"/>
-                            <constraint firstItem="yVg-xh-lMM" firstAttribute="top" secondItem="RhY-hF-4O5" secondAttribute="bottom" constant="8" id="Zrg-o7-zXm"/>
-                            <constraint firstItem="yVg-xh-lMM" firstAttribute="leading" secondItem="RhY-hF-4O5" secondAttribute="leading" id="a5z-qE-mpu"/>
                             <constraint firstItem="6qd-0E-zDz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="afu-LA-dA8"/>
                             <constraint firstItem="RhY-hF-4O5" firstAttribute="leading" secondItem="6qd-0E-zDz" secondAttribute="leading" id="cja-yH-JFY"/>
                             <constraint firstItem="5OM-oc-nfh" firstAttribute="top" secondItem="1zR-iX-oQ5" secondAttribute="top" id="dLA-GI-ipc"/>
@@ -156,16 +154,14 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="Lw5-iy-IMt"/>
-                                <exclude reference="V4T-M2-bcK"/>
+                                <exclude reference="A8h-Uy-vwZ"/>
+                                <exclude reference="Ep5-qC-3mg"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact-widthClass=regular">
                             <mask key="constraints">
-                                <include reference="Lw5-iy-IMt"/>
-                                <include reference="V4T-M2-bcK"/>
-                                <exclude reference="Zrg-o7-zXm"/>
-                                <exclude reference="a5z-qE-mpu"/>
+                                <include reference="A8h-Uy-vwZ"/>
+                                <include reference="Ep5-qC-3mg"/>
                             </mask>
                         </variation>
                     </view>
