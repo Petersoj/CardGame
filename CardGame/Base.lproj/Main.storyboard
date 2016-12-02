@@ -24,6 +24,9 @@
                                     <constraint firstAttribute="height" constant="91" id="wv6-TS-UiI"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="cardDone"/>
+                                <variation key="heightClass=compact-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="370" y="155" width="61" height="91"/>
+                                </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cLk-Qm-OYS">
                                 <rect key="frame" x="408" y="255" width="61" height="91"/>
@@ -32,6 +35,9 @@
                                     <constraint firstAttribute="height" constant="91" id="RaS-6R-pCu"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="cardDone"/>
+                                <variation key="heightClass=compact-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="408" y="155" width="61" height="91"/>
+                                </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1zR-iX-oQ5">
                                 <rect key="frame" x="270" y="156" width="61" height="91"/>
@@ -40,6 +46,9 @@
                                     <constraint firstAttribute="width" constant="61" id="yga-ys-TwJ"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="cardDone"/>
+                                <variation key="heightClass=compact-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="370" y="56" width="61" height="91"/>
+                                </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RhY-hF-4O5">
                                 <rect key="frame" x="270" y="354" width="61" height="91"/>
@@ -48,6 +57,9 @@
                                     <constraint firstAttribute="height" constant="91" id="aHL-q8-nSa"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="cardDone"/>
+                                <variation key="heightClass=compact-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="370" y="254" width="61" height="91"/>
+                                </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5OM-oc-nfh">
                                 <rect key="frame" x="339" y="156" width="61" height="91"/>
@@ -56,6 +68,9 @@
                                     <constraint firstAttribute="width" constant="61" id="UGC-dB-tY1"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="cardDone"/>
+                                <variation key="heightClass=compact-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="339" y="56" width="61" height="91"/>
+                                </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XfL-j7-RM1">
                                 <rect key="frame" x="339" y="255" width="61" height="91"/>
@@ -64,6 +79,9 @@
                                     <constraint firstAttribute="height" constant="91" id="Z3r-72-Fqj"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="cardDone"/>
+                                <variation key="heightClass=compact-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="339" y="155" width="61" height="91"/>
+                                </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eoc-F6-MMl">
                                 <rect key="frame" x="339" y="354" width="61" height="91"/>
@@ -80,6 +98,9 @@
                                     <constraint firstAttribute="width" constant="61" id="cxg-jp-Jo3"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="cardDone"/>
+                                <variation key="heightClass=compact-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="301" y="56" width="61" height="91"/>
+                                </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lEl-IR-7mo">
                                 <rect key="frame" x="201" y="255" width="61" height="91"/>
@@ -88,6 +109,9 @@
                                     <constraint firstAttribute="height" constant="91" id="qsF-ib-6XE"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="cardDone"/>
+                                <variation key="heightClass=compact-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="301" y="155" width="61" height="91"/>
+                                </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gov-YE-nRO">
                                 <rect key="frame" x="201" y="354" width="61" height="91"/>
@@ -96,12 +120,18 @@
                                     <constraint firstAttribute="height" constant="91" id="yFK-bM-Aq8"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="cardDone"/>
+                                <variation key="heightClass=compact-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="301" y="254" width="61" height="91"/>
+                                </variation>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4P8-Bp-gBr">
                                 <rect key="frame" x="201" y="127" width="199" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="heightClass=compact-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="301" y="27" width="199" height="21"/>
+                                </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D3w-dR-sWf">
                                 <rect key="frame" x="132" y="255" width="61" height="91"/>
@@ -110,8 +140,11 @@
                                     <constraint firstAttribute="height" constant="91" id="ZfI-tx-Syx"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="cardDone"/>
+                                <variation key="heightClass=compact-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="232" y="155" width="61" height="91"/>
+                                </variation>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yVg-xh-lMM">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yVg-xh-lMM">
                                 <rect key="frame" x="270" y="453" width="61" height="91"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="91" id="AWR-0n-WyK"/>
@@ -120,14 +153,16 @@
                                     </constraint>
                                 </constraints>
                                 <state key="normal" backgroundImage="cardDone"/>
+                                <variation key="heightClass=compact-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="370" y="453" width="61" height="91"/>
+                                </variation>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="yVg-xh-lMM" firstAttribute="top" secondItem="eoc-F6-MMl" secondAttribute="top" id="A8h-Uy-vwZ"/>
                             <constraint firstItem="6qd-0E-zDz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ERC-1i-vxy"/>
-                            <constraint firstItem="yVg-xh-lMM" firstAttribute="leading" secondItem="eoc-F6-MMl" secondAttribute="trailing" constant="8" id="Ep5-qC-3mg"/>
                             <constraint firstItem="lEl-IR-7mo" firstAttribute="leading" secondItem="WXf-XI-OGm" secondAttribute="leading" id="HPl-eu-m9R"/>
+                            <constraint firstItem="yVg-xh-lMM" firstAttribute="top" secondItem="RhY-hF-4O5" secondAttribute="bottom" constant="8" id="I5D-me-Qrg"/>
                             <constraint firstItem="1zR-iX-oQ5" firstAttribute="top" secondItem="4P8-Bp-gBr" secondAttribute="bottom" constant="8" id="Ike-B9-OlV"/>
                             <constraint firstItem="4P8-Bp-gBr" firstAttribute="trailing" secondItem="5OM-oc-nfh" secondAttribute="trailing" id="KYa-Aa-QnM"/>
                             <constraint firstItem="4P8-Bp-gBr" firstAttribute="leading" secondItem="WXf-XI-OGm" secondAttribute="leading" id="KoD-OV-vsh"/>
@@ -149,21 +184,10 @@
                             <constraint firstItem="eoc-F6-MMl" firstAttribute="top" secondItem="XfL-j7-RM1" secondAttribute="bottom" constant="8" id="k34-3n-egN"/>
                             <constraint firstItem="1zR-iX-oQ5" firstAttribute="leading" secondItem="WXf-XI-OGm" secondAttribute="trailing" constant="8" id="pJm-Sr-Hu1"/>
                             <constraint firstItem="D3w-dR-sWf" firstAttribute="top" secondItem="lEl-IR-7mo" secondAttribute="top" id="rIt-an-2Wg"/>
+                            <constraint firstItem="yVg-xh-lMM" firstAttribute="leading" secondItem="RhY-hF-4O5" secondAttribute="leading" id="s3a-os-ji2"/>
                             <constraint firstItem="cLk-Qm-OYS" firstAttribute="leading" secondItem="XfL-j7-RM1" secondAttribute="trailing" constant="8" id="urn-gy-HdV"/>
                             <constraint firstItem="RhY-hF-4O5" firstAttribute="top" secondItem="6qd-0E-zDz" secondAttribute="bottom" constant="8" id="xtQ-gw-kZz"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="A8h-Uy-vwZ"/>
-                                <exclude reference="Ep5-qC-3mg"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=compact-widthClass=regular">
-                            <mask key="constraints">
-                                <include reference="A8h-Uy-vwZ"/>
-                                <include reference="Ep5-qC-3mg"/>
-                            </mask>
-                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

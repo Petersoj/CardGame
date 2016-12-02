@@ -4,10 +4,11 @@
 //
 //  Created by Peterson, Jacob on 10/25/16.
 //  Copyright © 2016 Peterson, Jacob. All rights reserved.
-//
+//  Created with the assistants of C0dee H3nR1ksun
 
 import UIKit
 
+@IBDesignable
 class Card {
     
     internal var backImage: UIImage

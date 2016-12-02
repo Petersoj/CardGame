@@ -37,8 +37,5 @@ import UIKit
         super.init(coder: acoder)
     }
     
-    func setup() -> Void{
-        
-    }
     
 }
